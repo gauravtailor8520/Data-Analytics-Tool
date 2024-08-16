@@ -32,7 +32,7 @@ The main goal of this project is to provide a comprehensive and intuitive platfo
 
 ## 🚀 Try the Tool
 
-You can try out the Data Analytics Portal [here]([https://my-data-analytics-tool.streamlit.app/](https://data-analytics-tool-9kkvthtjafbuql9m7lchvo.streamlit.app/).
+You can try out the Data Analytics Portal [here](https://data-analytics-tool-9kkvthtjafbuql9m7lchvo.streamlit.app/).
 
 Feel free to explore and interact with the data using this app. Happy analyzing!
 
