@@ -20,7 +20,7 @@ st.set_page_config(
     page_icon="📈"
 )
 
-lottie_hello = load_lottieurl("https://lottie.host/5dafecb0-3a4b-431e-a3d3-051afbd47cbb/M34MgoBCi8.json")
+lottie_hello = load_lottieurl("https://lottie.host/41d570b2-812e-4be2-8769-916b025d5bf3/hcLMRkwqtY.json")
 
 st_lottie(
     lottie_hello,
