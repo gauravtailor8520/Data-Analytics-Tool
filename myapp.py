@@ -24,7 +24,7 @@ lottie_hello = load_lottieurl("https://lottie.host/549c98c5-8615-4ff5-8601-4f4e5
 
 st_lottie(
     lottie_hello,
-    speed=1,
+    speed=0.5,
     reverse=False,
     loop=True,
     quality="low",  # medium ; high
