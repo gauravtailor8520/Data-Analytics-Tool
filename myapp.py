@@ -20,25 +20,26 @@ st.set_page_config(
     page_icon="📈"
 )
 
-st.title(':rainbow[Data Analytics Portal]' ,)
-st.subheader(':grey[Explore Data with ease.]',divider='rainbow')
-
-
-file = st.file_uploader('Drop csv or excel file',type=['csv','xlsx'])
-
-lottie_hello = load_lottieurl("https://lottie.host/a29b9221-182c-4531-8dcf-f98ca54ddde0/G81SAwpZAf.json")
+lottie_hello = load_lottieurl("https://lottie.host/8ff760c8-5731-4872-9bf3-7dfd0dfd32a8/iJbGrfp1UU.json")
 
 st_lottie(
     lottie_hello,
     speed=1,
     reverse=False,
     loop=True,
-    quality="low", # medium ; high
+    quality="low",  # medium ; high
     
-    height=None,
-    width=None,
+    height=200,  # Adjust the height to your desired size
+    width=400,   # Adjust the width to your desired size
     key=None,
 )
+
+st.title(':rainbow[Data Analytics Portal]' ,)
+st.subheader(':grey[Explore Data with ease.]',divider='rainbow')
+
+
+file = st.file_uploader('Drop csv or excel file',type=['csv','xlsx'])
+
 
 
 if(file!=None):
